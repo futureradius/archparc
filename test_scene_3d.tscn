@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dvsnkbubfjvql"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
