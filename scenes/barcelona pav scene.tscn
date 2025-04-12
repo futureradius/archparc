@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://dppf801ju6wig" path="res://scenes/glTF Import/low version pavillion_export V2 gltf___Stone_Marble_1.jpg" id="8_oj7kd"]
 [ext_resource type="Texture2D" uid="uid://bienonuj8raxd" path="res://scenes/glTF Import/low version pavillion_export V2 gltf_defaultMat_albedo_with OC.jpg" id="9_2twep"]
 [ext_resource type="Texture2D" uid="uid://bk40p77ext18o" path="res://scenes/glTF Import/low version pavillion_export V2 gltf_defaultMat_roughness.png" id="10_0mj37"]
-[ext_resource type="Texture2D" uid="uid://cd23vhwvn17n2" path="res://textures/dev/grids/Dark/texture_07.png" id="11_t7b67"]
+[ext_resource type="Texture2D" uid="uid://cd23vhwvn17n2" path="res://resources/textures/dev/grids/Dark/texture_07.png" id="11_t7b67"]
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_t7b67"]
 backface_collision = true

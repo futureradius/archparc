@@ -1,0 +1,78 @@
+[gd_scene load_steps=6 format=3 uid="uid://durabt70jeeqt"]
+
+[ext_resource type="Script" uid="uid://dxwn8p8klcf8w" path="res://scripts/Player_Controler.gd" id="1_1w777"]
+[ext_resource type="Material" uid="uid://cuwaa16c41a8h" path="res://resources/materials/panorama_sky_material.tres" id="1_o7aku"]
+
+[sub_resource type="Sky" id="Sky_v4waj"]
+sky_material = ExtResource("1_o7aku")
+
+[sub_resource type="Environment" id="Environment_vpofs"]
+background_mode = 2
+sky = SubResource("Sky_v4waj")
+ambient_light_source = 2
+ambient_light_color = Color(0.6, 0.6, 0.6, 1)
+ambient_light_sky_contribution = 0.0
+tonemap_mode = 2
+tonemap_white = 6.0
+fog_enabled = true
+fog_density = 0.0015
+fog_sky_affect = 0.0
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_o7aku"]
+
+[node name="Stage" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_vpofs")
+
+[node name="DirectionalLight" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.965926, -0.166366, 0.198267, 1.42109e-14, 0.766044, 0.642788, -0.258819, 0.620886, -0.739941, 0, 0, 0)
+shadow_enabled = true
+shadow_bias = 0.02
+shadow_blur = 1.5
+directional_shadow_mode = 0
+directional_shadow_fade_start = 1.0
+directional_shadow_max_distance = 55.0
+
+[node name="Reflection1" type="ReflectionProbe" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 15.3372, -10.0862, -1)
+intensity = 0.5
+max_distance = 60.0
+size = Vector3(35.9516, 10.8191, 57.2713)
+origin_offset = Vector3(0, -1.5, 0)
+box_projection = true
+cull_mask = 1048573
+
+[node name="Reflection2" type="ReflectionProbe" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.00493, -11.0923, -9.18156)
+intensity = 0.5
+size = Vector3(13.4089, 7.36896, 13.5806)
+origin_offset = Vector3(0, -0.22168, 0)
+box_projection = true
+cull_mask = 1048573
+
+[node name="Reflection3" type="ReflectionProbe" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.8816, -11.3435, -3.22627)
+intensity = 0.5
+max_distance = 18.7
+size = Vector3(30.2524, 7.41113, 15.6725)
+origin_offset = Vector3(0, -0.22168, 0)
+box_projection = true
+cull_mask = 1048573
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.738831, -1.3429, -0.502088)
+size = Vector3(2.47766, 1, 4.00342)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.931147, 7.85428, -0.632284)
+script = ExtResource("1_1w777")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_o7aku")
+
+[node name="Head Pivot" type="Node3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.58373, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/Head Pivot"]
