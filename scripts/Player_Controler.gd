@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 
 const WALK_speed = 3.0
-const SLOW_WALK_speed = 1.0
+const SLOW_WALK_speed = 6.0
 const JUMP_VELOCITY = 3.50
 const gravtiy = 9.8
 var speed = 3.0

@@ -1,0 +1,45 @@
+[gd_scene load_steps=8 format=3 uid="uid://bqufo8hq3yrel"]
+
+[ext_resource type="PackedScene" uid="uid://d2wblrl7b8uno" path="res://scenes/blender/low version pavillionblend.blend" id="1_krlaa"]
+[ext_resource type="Texture2D" uid="uid://d32vqxbaj5ivu" path="res://hdris/kloofendal_48d_partly_cloudy_puresky_2k.hdr" id="2_0jix8"]
+[ext_resource type="Script" uid="uid://dxwn8p8klcf8w" path="res://scripts/Player_Controler.gd" id="3_vcsn4"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_gag2j"]
+panorama = ExtResource("2_0jix8")
+
+[sub_resource type="Sky" id="Sky_xpt42"]
+sky_material = SubResource("PanoramaSkyMaterial_gag2j")
+
+[sub_resource type="Environment" id="Environment_4hu3a"]
+background_mode = 2
+sky = SubResource("Sky_xpt42")
+tonemap_mode = 2
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_v2nag"]
+
+[node name="TestScene2" type="Node3D"]
+
+[node name="low version pavillionblend" parent="." instance=ExtResource("1_krlaa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.8051, -7.27631, 4.83291)
+
+[node name="environment" type="Node3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="environment"]
+environment = SubResource("Environment_4hu3a")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="environment"]
+transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866026, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+light_energy = 14.576
+shadow_enabled = true
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+script = ExtResource("3_vcsn4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_v2nag")
+
+[node name="Head Pivot" type="Node3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.58373, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/Head Pivot"]
