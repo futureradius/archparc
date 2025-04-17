@@ -4,4 +4,4 @@
 
 [resource]
 albedo_texture = ExtResource("1_bsxpg")
-roughness = 0.75
+roughness = 0.71

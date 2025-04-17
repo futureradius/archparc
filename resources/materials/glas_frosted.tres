@@ -2,5 +2,7 @@
 
 [resource]
 transparency = 1
-albedo_color = Color(0.2772, 0.66, 0.5962, 0.890196)
-roughness = 0.11
+depth_draw_mode = 1
+albedo_color = Color(0.2772, 0.66, 0.5962, 0.701961)
+roughness = 0.14
+refraction_scale = -0.2
