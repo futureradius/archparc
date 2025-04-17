@@ -1,0 +1,39 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://demu222t1rlvx"
+path.s3tc="res://.godot/imported/chairra_0.png-dfd3dda55cc3d451d6acd71613515bdc.s3tc.ctex"
+path.etc2="res://.godot/imported/chairra_0.png-dfd3dda55cc3d451d6acd71613515bdc.etc2.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "1c81b1510c28ff1c1b9fcc1f35702c73"
+}
+
+[deps]
+
+source_file="res://resources/meshes/chairra_0.png"
+dest_files=["res://.godot/imported/chairra_0.png-dfd3dda55cc3d451d6acd71613515bdc.s3tc.ctex", "res://.godot/imported/chairra_0.png-dfd3dda55cc3d451d6acd71613515bdc.etc2.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

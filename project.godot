@@ -13,10 +13,11 @@ config_version=5
 config/name="Archparc"
 run/main_scene="uid://fnoll5cny1fp"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-boot_splash/bg_color=Color(0.2214, 0.41256, 0.54, 1)
+boot_splash/bg_color=Color(0.77084, 0.770839, 0.770839, 1)
+boot_splash/fullsize=false
+boot_splash/use_filter=false
 boot_splash/image="uid://l1qc80t7pxj4"
 config/icon="res://icon.svg"
-boot_splash/minimum_display_time=1000
 
 [input]
 

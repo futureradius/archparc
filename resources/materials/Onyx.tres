@@ -1,6 +1,7 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://jhdrujmvgkvq"]
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://drw6yrewqnbw"]
 
-[ext_resource type="Texture2D" uid="uid://vn4fm24gtvuh" path="res://resources/textures/stone textures/onyx_512.jpg" id="1_irjox"]
+[ext_resource type="Texture2D" uid="uid://cvaylcoh0i5gr" path="res://resources/textures/textures/onyx_512.jpg" id="1_34rke"]
 
 [resource]
-albedo_texture = ExtResource("1_irjox")
+albedo_texture = ExtResource("1_34rke")
+roughness = 0.43

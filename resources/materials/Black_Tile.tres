@@ -1,6 +1,0 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cnyc64lf4w7r1"]
-
-[ext_resource type="Texture2D" uid="uid://badp5llvxyxrw" path="res://resources/textures/stone textures/black_tile_512.jpg" id="1_q5fxo"]
-
-[resource]
-albedo_texture = ExtResource("1_q5fxo")

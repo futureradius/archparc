@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dk4cffodrb6e3"]
+
+[ext_resource type="Texture2D" uid="uid://x72kl666aprp" path="res://resources/textures/textures/Barcelona_chair.jpg" id="1_6x8qx"]
+
+[resource]
+albedo_color = Color(0.969137, 0.969137, 0.969137, 1)
+albedo_texture = ExtResource("1_6x8qx")
+roughness = 0.9
