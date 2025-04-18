@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Archparc"
+config/name="Archparc2"
 run/main_scene="uid://fnoll5cny1fp"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 boot_splash/bg_color=Color(0.77084, 0.770839, 0.770839, 1)
