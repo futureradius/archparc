@@ -19,6 +19,10 @@ boot_splash/use_filter=false
 boot_splash/image="uid://l1qc80t7pxj4"
 config/icon="res://icon.svg"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/virtual_joystick/plugin.cfg")
+
 [input]
 
 forward={
