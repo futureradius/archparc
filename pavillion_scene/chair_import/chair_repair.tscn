@@ -1,9 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://vewdakg0lh7y"]
+[gd_scene load_steps=5 format=3 uid="uid://vewdakg0lh7y"]
 
 [ext_resource type="PackedScene" uid="uid://bmjm4bpsyn8gt" path="res://pavillion_scene/chair_import/Chair_repair.fbx" id="1_n80h6"]
-[ext_resource type="Material" uid="uid://4dfytfofxkb5" path="res://pavillion_scene/materials/barcelona_chair_back.tres" id="2_q701o"]
 [ext_resource type="Material" uid="uid://c1dkqq4opddeu" path="res://pavillion_scene/materials/barcelona_chair.tres" id="3_6wi4d"]
-[ext_resource type="Material" uid="uid://bcavi8npt5qeq" path="res://pavillion_scene/materials/polished_metal.tres" id="4_5nwfa"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_q701o"]
 size = Vector3(0.753021, 0.39801, 0.771484)
@@ -13,18 +11,8 @@ size = Vector3(0.756104, 0.394897, 0.149414)
 
 [node name="Chair_repair" instance=ExtResource("1_n80h6")]
 
-[node name="Object_1" parent="SketchUp/final back" index="0"]
-surface_material_override/0 = ExtResource("2_q701o")
-
 [node name="group_15_001" parent="front_mat" index="0"]
 material_override = ExtResource("3_6wi4d")
-surface_material_override/0 = ExtResource("3_6wi4d")
-
-[node name="group_8_001" parent="front_mat" index="1"]
-surface_material_override/0 = ExtResource("3_6wi4d")
-
-[node name="group_20" parent="metal" index="0"]
-surface_material_override/0 = ExtResource("4_5nwfa")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." index="3"]
 

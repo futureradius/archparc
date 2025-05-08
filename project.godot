@@ -13,6 +13,7 @@ config_version=5
 config/name="archparc"
 run/main_scene="res://pavillion_scene/pavillion_scene.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
+boot_splash/bg_color=Color(0.907942, 0.907942, 0.907942, 1)
 boot_splash/fullsize=false
 boot_splash/image="uid://c4s315po6bi06"
 config/icon="uid://bcyi2h153x61l"
