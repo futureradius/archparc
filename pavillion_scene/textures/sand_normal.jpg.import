@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dt0ooi04lqioy"
-path.s3tc="res://.godot/imported/sand_normal.jpg-3d399703a7030c48b27695b47562943d.s3tc.ctex"
+path="res://.godot/imported/sand_normal.jpg-3d399703a7030c48b27695b47562943d.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://pavillion_scene/textures/sand_normal.jpg"
-dest_files=["res://.godot/imported/sand_normal.jpg-3d399703a7030c48b27695b47562943d.s3tc.ctex"]
+dest_files=["res://.godot/imported/sand_normal.jpg-3d399703a7030c48b27695b47562943d.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

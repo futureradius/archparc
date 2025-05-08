@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwd4olfh647l4"
-path.s3tc="res://.godot/imported/travertine_512.jpg-8b64290f92cf1bbc07d0e016ba68e58e.s3tc.ctex"
+path="res://.godot/imported/travertine_512.jpg-8b64290f92cf1bbc07d0e016ba68e58e.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://pavillion_scene/textures/travertine_512.jpg"
-dest_files=["res://.godot/imported/travertine_512.jpg-8b64290f92cf1bbc07d0e016ba68e58e.s3tc.ctex"]
+dest_files=["res://.godot/imported/travertine_512.jpg-8b64290f92cf1bbc07d0e016ba68e58e.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

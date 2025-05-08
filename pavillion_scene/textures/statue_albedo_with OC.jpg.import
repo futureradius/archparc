@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byfy6ag4p0iee"
-path.s3tc="res://.godot/imported/statue_albedo_with OC.jpg-65d28c96f2fa2f0fffc5c470ca1fd0f9.s3tc.ctex"
+path="res://.godot/imported/statue_albedo_with OC.jpg-65d28c96f2fa2f0fffc5c470ca1fd0f9.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://pavillion_scene/textures/statue_albedo_with OC.jpg"
-dest_files=["res://.godot/imported/statue_albedo_with OC.jpg-65d28c96f2fa2f0fffc5c470ca1fd0f9.s3tc.ctex"]
+dest_files=["res://.godot/imported/statue_albedo_with OC.jpg-65d28c96f2fa2f0fffc5c470ca1fd0f9.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

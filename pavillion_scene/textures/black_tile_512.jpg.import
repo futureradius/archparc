@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnhfprstikxqy"
-path.s3tc="res://.godot/imported/black_tile_512.jpg-67e94c8f6a129a9e1e0037a90674daa5.s3tc.ctex"
+path="res://.godot/imported/black_tile_512.jpg-67e94c8f6a129a9e1e0037a90674daa5.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://pavillion_scene/textures/black_tile_512.jpg"
-dest_files=["res://.godot/imported/black_tile_512.jpg-67e94c8f6a129a9e1e0037a90674daa5.s3tc.ctex"]
+dest_files=["res://.godot/imported/black_tile_512.jpg-67e94c8f6a129a9e1e0037a90674daa5.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=1
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
