@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8w3fre1rfw"]
+
+[ext_resource type="Script" uid="uid://dji8w0wd1ot4l" path="res://player_controler/player_controler_script.gd" id="1_80te6"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_5sqy5"]
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+script = ExtResource("1_80te6")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_5sqy5")
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="Node3D"]

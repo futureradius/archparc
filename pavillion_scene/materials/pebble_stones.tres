@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://cx6ksmc0v3a8o"]
+
+[ext_resource type="Texture2D" uid="uid://de5356htov7oa" path="res://pavillion_scene/textures/gravel_albedo.jpg" id="1_qkd4w"]
+[ext_resource type="Texture2D" uid="uid://cwtcpimaa0nrw" path="res://pavillion_scene/textures/gravel_normal.jpg" id="2_1uv48"]
+[ext_resource type="Texture2D" uid="uid://7l7n0embywyr" path="res://pavillion_scene/textures/gravel_roughness.jpg" id="3_w3tro"]
+
+[resource]
+albedo_texture = ExtResource("1_qkd4w")
+roughness = 0.1
+roughness_texture = ExtResource("3_w3tro")
+normal_enabled = true
+normal_texture = ExtResource("2_1uv48")

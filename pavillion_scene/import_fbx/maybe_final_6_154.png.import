@@ -1,0 +1,37 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://h32nyl7qn5vi"
+path="res://.godot/imported/maybe_final_6_154.png-af2b357b7c320c2e90468d59f104c1d5.ctex"
+metadata={
+"vram_texture": false
+}
+generator_parameters={
+"md5": "9cd8c4a41f9a81c123c01a6bf3d75320"
+}
+
+[deps]
+
+source_file="res://pavillion_scene/import_fbx/maybe_final_6_154.png"
+dest_files=["res://.godot/imported/maybe_final_6_154.png-af2b357b7c320c2e90468d59f104c1d5.ctex"]
+
+[params]
+
+compress/mode=1
+compress/high_quality=false
+compress/lossy_quality=0.6
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
