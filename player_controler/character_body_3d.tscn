@@ -15,3 +15,4 @@ shape = SubResource("CapsuleShape3D_5sqy5")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.65, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Node3D"]
+fov = 50.2
